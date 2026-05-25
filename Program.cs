@@ -45,6 +45,10 @@
 
                 Console.WriteLine("Programmet avslutas normalt.");
             }
+            int Count()
+            {
+                return 5 + 5;
+            }
 
             // Exempel på metod som själv kastar ett undantag (throw)
             static double ProcessFile(string fileName)
@@ -93,6 +97,7 @@
                     Console.WriteLine("finally i ProcessFile: StreamReader stängd.");
                 }
             }
+
         }
     }
 }
