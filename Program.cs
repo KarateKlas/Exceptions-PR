@@ -8,6 +8,7 @@
                 Console.WriteLine("=== Start av programmet ===");
                 Console.WriteLine("Christofer was here");
 
+                Console.WriteLine(var);
                 // Exempel 1: try-catch-finally
                 try
                 {
