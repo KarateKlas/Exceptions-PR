@@ -6,6 +6,7 @@
         {
             {
                 Console.WriteLine("=== Start av programmet ===");
+                Console.WriteLine(Count());
 
                 // Exempel 1: try-catch-finally
                 try
@@ -43,6 +44,10 @@
                 }
 
                 Console.WriteLine("Programmet avslutas normalt.");
+            }
+            int Count()
+            {
+                return 5 + 5;
             }
 
             // Exempel på metod som själv kastar ett undantag (throw)
@@ -92,6 +97,7 @@
                     Console.WriteLine("finally i ProcessFile: StreamReader stängd.");
                 }
             }
+
         }
     }
 }
